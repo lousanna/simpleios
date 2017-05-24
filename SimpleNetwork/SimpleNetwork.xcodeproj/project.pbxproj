@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92F94F1A9BE6FB570FA18B92 /* Pods_SimpleNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8684011F6C415722DFF7588C /* Pods_SimpleNetwork.framework */; };
 		B62D16671ED3096E005E8185 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62D16661ED3096E005E8185 /* AppDelegate.swift */; };
 		B62D166C1ED3096F005E8185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62D166A1ED3096F005E8185 /* Main.storyboard */; };
 		B62D166E1ED3096F005E8185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62D166D1ED3096F005E8185 /* Assets.xcassets */; };
 		B62D16711ED3096F005E8185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62D166F1ED3096F005E8185 /* LaunchScreen.storyboard */; };
 		B6EA7BB81ED30B5400DCE3FE /* CakeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA7BB71ED30B5400DCE3FE /* CakeTableViewController.swift */; };
 		B6EA7BBA1ED30C4400DCE3FE /* CakeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EA7BB91ED30C4400DCE3FE /* CakeTableViewCell.swift */; };
+		CAC40BBD1ED4A678009EDC52 /* CustomTabAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC40BB91ED4A678009EDC52 /* CustomTabAnimatedTransitioning.swift */; };
+		CAC40BBE1ED4A678009EDC52 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC40BBA1ED4A678009EDC52 /* CustomTabBar.swift */; };
+		CAC40BBF1ED4A678009EDC52 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC40BBB1ED4A678009EDC52 /* CustomTabBarController.swift */; };
+		CAC40BC01ED4A678009EDC52 /* CustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC40BBC1ED4A678009EDC52 /* CustomTabBarItem.swift */; };
+		CAC40BC21ED4AC13009EDC52 /* AllCakesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC40BC11ED4AC13009EDC52 /* AllCakesTVC.swift */; };
+		CAC40BC41ED4C66B009EDC52 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC40BC31ED4C66B009EDC52 /* NextViewController.swift */; };
+		CAC40BC61ED500A2009EDC52 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC40BC51ED500A2009EDC52 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8684011F6C415722DFF7588C /* Pods_SimpleNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62D16631ED3096E005E8185 /* SimpleNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62D16661ED3096E005E8185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B62D166B1ED3096F005E8185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +33,15 @@
 		B62D16721ED3096F005E8185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6EA7BB71ED30B5400DCE3FE /* CakeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeTableViewController.swift; sourceTree = "<group>"; };
 		B6EA7BB91ED30C4400DCE3FE /* CakeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeTableViewCell.swift; sourceTree = "<group>"; };
+		B810A16817102EDF3D889A82 /* Pods-SimpleNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNetwork/Pods-SimpleNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		CAC40BB91ED4A678009EDC52 /* CustomTabAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		CAC40BBA1ED4A678009EDC52 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		CAC40BBB1ED4A678009EDC52 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		CAC40BBC1ED4A678009EDC52 /* CustomTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarItem.swift; sourceTree = "<group>"; };
+		CAC40BC11ED4AC13009EDC52 /* AllCakesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCakesTVC.swift; sourceTree = "<group>"; };
+		CAC40BC31ED4C66B009EDC52 /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		CAC40BC51ED500A2009EDC52 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		EF157ADC5588F11499C88DFC /* Pods-SimpleNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleNetwork/Pods-SimpleNetwork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F94F1A9BE6FB570FA18B92 /* Pods_SimpleNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7EEF1EB0ED57541F9973EE47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B810A16817102EDF3D889A82 /* Pods-SimpleNetwork.debug.xcconfig */,
+				EF157ADC5588F11499C88DFC /* Pods-SimpleNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B62D165A1ED3096E005E8185 = {
 			isa = PBXGroup;
 			children = (
 				B62D16651ED3096E005E8185 /* SimpleNetwork */,
 				B62D16641ED3096E005E8185 /* Products */,
+				7EEF1EB0ED57541F9973EE47 /* Pods */,
+				BDFD6FB0B512159C3D1D9D9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,30 @@
 		B62D16651ED3096E005E8185 /* SimpleNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				CAC40BB91ED4A678009EDC52 /* CustomTabAnimatedTransitioning.swift */,
+				CAC40BBA1ED4A678009EDC52 /* CustomTabBar.swift */,
+				CAC40BBB1ED4A678009EDC52 /* CustomTabBarController.swift */,
+				CAC40BBC1ED4A678009EDC52 /* CustomTabBarItem.swift */,
 				B62D16661ED3096E005E8185 /* AppDelegate.swift */,
 				B6EA7BB71ED30B5400DCE3FE /* CakeTableViewController.swift */,
+				CAC40BC11ED4AC13009EDC52 /* AllCakesTVC.swift */,
 				B6EA7BB91ED30C4400DCE3FE /* CakeTableViewCell.swift */,
 				B62D166A1ED3096F005E8185 /* Main.storyboard */,
 				B62D166D1ED3096F005E8185 /* Assets.xcassets */,
 				B62D166F1ED3096F005E8185 /* LaunchScreen.storyboard */,
 				B62D16721ED3096F005E8185 /* Info.plist */,
+				CAC40BC31ED4C66B009EDC52 /* NextViewController.swift */,
+				CAC40BC51ED500A2009EDC52 /* EditViewController.swift */,
 			);
 			path = SimpleNetwork;
+			sourceTree = "<group>";
+		};
+		BDFD6FB0B512159C3D1D9D9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8684011F6C415722DFF7588C /* Pods_SimpleNetwork.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B62D16751ED3096F005E8185 /* Build configuration list for PBXNativeTarget "SimpleNetwork" */;
 			buildPhases = (
+				485D7ABE77D769C46A45BDE3 /* [CP] Check Pods Manifest.lock */,
 				B62D165F1ED3096E005E8185 /* Sources */,
 				B62D16601ED3096E005E8185 /* Frameworks */,
 				B62D16611ED3096E005E8185 /* Resources */,
+				D56156DC0051EE6B498F7586 /* [CP] Embed Pods Frameworks */,
+				34AF8A8A0D2856137C384140 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,13 +183,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34AF8A8A0D2856137C384140 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNetwork/Pods-SimpleNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		485D7ABE77D769C46A45BDE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D56156DC0051EE6B498F7586 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleNetwork/Pods-SimpleNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B62D165F1ED3096E005E8185 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC40BC61ED500A2009EDC52 /* EditViewController.swift in Sources */,
 				B6EA7BB81ED30B5400DCE3FE /* CakeTableViewController.swift in Sources */,
+				CAC40BC21ED4AC13009EDC52 /* AllCakesTVC.swift in Sources */,
+				CAC40BBE1ED4A678009EDC52 /* CustomTabBar.swift in Sources */,
+				CAC40BC01ED4A678009EDC52 /* CustomTabBarItem.swift in Sources */,
+				CAC40BBF1ED4A678009EDC52 /* CustomTabBarController.swift in Sources */,
+				CAC40BBD1ED4A678009EDC52 /* CustomTabAnimatedTransitioning.swift in Sources */,
 				B6EA7BBA1ED30C4400DCE3FE /* CakeTableViewCell.swift in Sources */,
+				CAC40BC41ED4C66B009EDC52 /* NextViewController.swift in Sources */,
 				B62D16671ED3096E005E8185 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,10 +368,12 @@
 		};
 		B62D16761ED3096F005E8185 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B810A16817102EDF3D889A82 /* Pods-SimpleNetwork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TLA3XB8KJA;
 				INFOPLIST_FILE = SimpleNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.missiondata.SimpleNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,10 +383,12 @@
 		};
 		B62D16771ED3096F005E8185 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF157ADC5588F11499C88DFC /* Pods-SimpleNetwork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TLA3XB8KJA;
 				INFOPLIST_FILE = SimpleNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.missiondata.SimpleNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
