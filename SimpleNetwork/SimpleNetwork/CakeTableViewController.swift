@@ -16,6 +16,10 @@ class CakeTableViewController: UITableViewController {
         self.navigationItem.rightBarButtonItem = self.editButtonItem
         myActivityIndicator.center = view.center
         myActivityIndicator.hidesWhenStopped = false
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
+
     }
     
     override func viewWillAppear(_ animated: Bool) {

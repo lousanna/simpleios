@@ -39,8 +39,8 @@ class EditViewController: UIViewController {
         
         let firstTodoEndpoint: String = "https://sinatralous.herokuapp.com/list/" + identifier + "/" + editText.text!
         
+        var firstTodoUrlRequest = URLRequest(url: URL(string: firstTodoEndpoint.replacingOccurrences(of: " ", with: "%20"))!)
         print(firstTodoEndpoint)
-        var firstTodoUrlRequest = URLRequest(url: URL(string: firstTodoEndpoint.replacingOccurrences(of: " ", with: "%20")!)
         firstTodoUrlRequest.httpMethod = "PUT"
         
         let session = URLSession.shared
@@ -55,8 +55,11 @@ class EditViewController: UIViewController {
             
         }
         task.resume()
- 
-        self.dismiss(animated: true, completion: nil)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1), execute: {
+            self.dismiss(animated: true, completion: nil)
+        })
+
     }
 
     @IBAction func finishedEdit(_ sender: UITextField) {
