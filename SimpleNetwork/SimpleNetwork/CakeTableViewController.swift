@@ -26,6 +26,7 @@ class CakeTableViewController: UITableViewController {
         super.viewWillAppear(animated)
         
         tableRows.removeAll()
+        rowID.removeAll()
         
         let session = URLSession(configuration: URLSessionConfiguration.default)
         

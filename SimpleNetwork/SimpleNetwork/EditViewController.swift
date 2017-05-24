@@ -25,7 +25,7 @@ class EditViewController: UIViewController {
         } else {
             passedValue = "N/A"
         }
-        
+        print(identifier)
         cakeName.text = passedValue
         editText.text = passedValue
     }
@@ -38,7 +38,7 @@ class EditViewController: UIViewController {
     @IBAction func goEdit(_ sender: UIButton) {
         
         let firstTodoEndpoint: String = "https://sinatralous.herokuapp.com/list/" + identifier + "/" + editText.text!
-        
+        print(identifier)
         var firstTodoUrlRequest = URLRequest(url: URL(string: firstTodoEndpoint.replacingOccurrences(of: " ", with: "%20"))!)
         print(firstTodoEndpoint)
         firstTodoUrlRequest.httpMethod = "PUT"
