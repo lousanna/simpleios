@@ -35,10 +35,10 @@ class NextViewController: UIViewController {
     }
     @IBAction func goAdd(_ sender: UIButton) {
         
-        let firstTodoEndpoint: String = "https://sinatralous.herokuapp.com/list/" + passedValue
+        let firstTodoEndpoint: String = "https://sinatralous.herokuapp.com/list/" + passedValue.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
         
         print(firstTodoEndpoint)
-        var firstTodoUrlRequest = URLRequest(url: URL(string: firstTodoEndpoint.replacingOccurrences(of: " ", with: "%20"))!)
+        var firstTodoUrlRequest = URLRequest(url: URL(string: firstTodoEndpoint)!)
         firstTodoUrlRequest.httpMethod = "POST"
         
         let session = URLSession.shared

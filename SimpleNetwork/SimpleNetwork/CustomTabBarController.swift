@@ -14,7 +14,7 @@ class CustomTabBarViewController: UITabBarController, CustomTabBarDataSource, Cu
         super.viewDidLoad()
 
         self.tabBar.isHidden = true
-        self.selectedIndex = 1
+        self.selectedIndex = 0
         self.delegate = self
         
         let customTabBar = CustomTabBar(frame: self.tabBar.frame)

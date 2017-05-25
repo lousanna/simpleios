@@ -36,12 +36,17 @@ class EditViewController: UIViewController {
     }
 
     @IBAction func goEdit(_ sender: UIButton) {
+
+        let jsonIn: [[String:Any]] = [["id": identifier,
+                                         "cake": editText.text!]]
+        let jsonData = try! JSONSerialization.data(withJSONObject: jsonIn, options: [])
         
-        let firstTodoEndpoint: String = "https://sinatralous.herokuapp.com/list/" + identifier + "/" + editText.text!
-        print(identifier)
-        var firstTodoUrlRequest = URLRequest(url: URL(string: firstTodoEndpoint.replacingOccurrences(of: " ", with: "%20"))!)
-        print(firstTodoEndpoint)
-        firstTodoUrlRequest.httpMethod = "PUT"
+        let firstTodoEndpoint: String = "https://sinatralous.herokuapp.com/upload?"
+
+        var firstTodoUrlRequest = URLRequest(url: URL(string: firstTodoEndpoint)!)
+        firstTodoUrlRequest.httpMethod = "POST"
+        firstTodoUrlRequest.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        firstTodoUrlRequest.httpBody = jsonData
         
         let session = URLSession.shared
         

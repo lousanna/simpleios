@@ -54,7 +54,7 @@ class CustomTabBar: UIView {
         customTabBarItems = []
         tabBarButtons = []
         
-        initialTabBarItemIndex = 1
+        initialTabBarItemIndex = 0
         selectedTabBarItemIndex = initialTabBarItemIndex
         
         slideAnimationDuration = 0.2

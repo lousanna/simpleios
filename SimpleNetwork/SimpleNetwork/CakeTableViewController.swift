@@ -79,14 +79,6 @@ class CakeTableViewController: UITableViewController {
     }
 
     
-    
-    // method to run when table view cell is tapped
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        // Segue to the second view controller
-        self.performSegue(withIdentifier: "mysegue", sender: self)
-    }
-    
     // This function is called before the segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
         
