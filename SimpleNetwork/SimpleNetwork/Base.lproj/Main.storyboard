@@ -252,7 +252,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Ukf-1h-4Fb">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="50" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ukf-1h-4Fb">
                                 <rect key="frame" x="71" y="30" width="245" height="617"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="CAKES" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpQ-n6-ZrK">
@@ -264,7 +264,7 @@
                                         <size key="shadowOffset" width="3" height="2"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBk-66-mix">
-                                        <rect key="frame" x="0.0" y="171" width="245" height="23.5"/>
+                                        <rect key="frame" x="0.0" y="194" width="245" height="23.5"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                                         <attributedString key="attributedText">
                                             <fragment content="This is a wonderful cake. ">
@@ -279,7 +279,7 @@
                                         <size key="shadowOffset" width="3" height="2"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4x-Ql-HXG">
-                                        <rect key="frame" x="0.0" y="341.5" width="245" height="64"/>
+                                        <rect key="frame" x="0.0" y="359" width="245" height="64"/>
                                         <color key="backgroundColor" red="0.49613381410000001" green="0.14911138390000001" blue="0.1816776041" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="45"/>
                                         <state key="normal" title="Add">
